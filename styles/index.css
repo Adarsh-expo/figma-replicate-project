@@ -1,7 +1,9 @@
 *{
     font-family: DM Sans;
 }
-
+body{
+    position: relative;
+}
 .navbartop{
 
 display: flex;
