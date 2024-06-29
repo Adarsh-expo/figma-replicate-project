@@ -1,0 +1,204 @@
+*{
+    font-family: DM Sans;
+}
+
+.navbartop{
+
+display: flex;
+position: relative;
+align-items: center;
+margin-bottom: 1rem;
+margin-top: 1rem;
+
+width: 100vw;
+
+
+}
+
+
+
+.logo{
+
+
+    width: 9.73%;
+    height: 2.5rem;
+    object-fit: contain;
+    position: absolute;
+    top:1.6%;
+    left:4.6%;
+}
+
+.home{
+
+   margin-left:40%;
+    font: size 16px;
+    font-weight: 700;
+    font-family: sans-serif;
+    color: #FF5766;
+}
+.Programs{
+
+    margin-left:6%;
+    font-size: 16px;
+font-weight: 500;
+line-height: 26px;
+font-family: sans-serif;
+
+}
+.success{
+
+font-size: 16px;
+font-weight: 500;
+line-height: 26px;
+font-family: sans-serif;
+min-width: 4rem;
+margin-left:6%;
+
+
+
+}
+.about{
+    
+    font-size: 16px;
+font-weight: 500;
+line-height: 26px;
+font-family: sans-serif;
+margin-left:6%;
+
+}
+.book{
+    margin-left: 6%;
+    width: 11rem;
+    height: 3rem;
+    margin-right: 6rem;
+    background-color: #FF5766;
+    border-radius: 8px;
+    font-family: DM Sans;
+    border:none;
+   font-weight: 700;
+   font-size: 16px;
+   color: white;
+
+    
+    
+}
+.book:hover{
+
+border:solid 2px blue
+
+
+}
+.about:hover{
+
+    text-decoration: underline;
+   text-decoration-color:blue ;
+   text-decoration-thickness:3px ;
+}
+.home:hover{
+
+    text-decoration: underline;
+   text-decoration-color:blue ;
+   text-decoration-thickness:3px ;
+}
+.success:hover{
+
+    text-decoration: underline;
+   text-decoration-color:blue ;
+   text-decoration-thickness:3px ;
+}
+.Programs:hover{
+
+    text-decoration: underline;
+   text-decoration-color:blue ;
+   text-decoration-thickness:3px ;
+}
+
+  
+.blueback:hover{
+
+    border:solid 3px blue;
+    border-left: 0;
+    border-right: 0;
+}
+
+
+.development{
+text-align: center;
+width:screen;
+color:#002863;
+display:flex;
+justify-content:center;
+align-items:center;
+font-weight: 700;
+font-size:36px;
+margin-top:2rem;
+font-family: DM Sans;
+
+}
+
+.Group290781{
+
+
+    display:flex;
+   
+    gap: 4rem;
+    width:70vw;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    align-items: center;
+    
+    
+
+}
+.Group290781 > .section1{
+    width:18vw;
+    position: relative;
+    
+    display: flex;
+    justify-content: center;
+    border:solid 4px #FFFFFF;
+   
+   
+}
+.section1:hover{
+
+border:solid 4px #0D99FF
+
+}
+.Group290781 > .section1> .section2{
+
+    height: 16rem;
+    width: 80%;
+    background-color: #F5EAE2;
+    border-radius: 12px;
+
+   
+font-size: 20px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: -0.04em;
+text-align: center;
+
+}
+.Group290781 > .section1 > .section1img{
+
+width: 100%;
+height:8rem ;
+object-fit: cover;
+position: absolute;
+top:6rem;
+border-radius: 8px;
+
+
+}
+
+/* Vector 12 */
+
+/* Group 290778 */
+
+
+
+

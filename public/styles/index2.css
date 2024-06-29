@@ -1,0 +1,206 @@
+
+@media(width:1366px){
+.logo{
+
+    width: 133.31px;
+height: 44px;
+
+left: 63px;
+
+
+}
+    .navbar{
+        width: 1366px;
+height: 82px;
+gap: 0px;
+opacity: 0px;
+
+    }
+    .home{
+        width: 44px;
+height: 26px;
+
+margin-left: 670px;
+gap: 0px;
+opacity: 0px;
+font-size: 16px;
+
+    }
+    .Programs{
+        margin-left: 78px;
+        font-size: 16px;
+    }
+    .success{
+        margin-left: 72px;
+        font-size: 16px;
+        width: 101px;
+    }
+   .book{
+    margin-left: 78px;
+    font-size: 16px;
+    width: 28vw;
+    margin-right: 2px;
+   }
+}
+@media (max-width:768px) {
+    .Group290781{
+
+
+
+        width: 70vw;
+    }
+    .blueback{
+        width: 100vw;
+    }
+    .home{
+        font-size: 13px;
+        margin-left: 30vw;
+    }
+    .Programs{
+
+        font-size: 13px;
+    }
+    .success{
+        font-size: 13px;
+        width: 15vw;
+        
+    }
+
+.about{
+    font-size: 13px;
+}
+    .book{
+        font-size: 13px;
+        width: 23vw;
+        margin-right: 0.7rem;
+        
+    }
+
+}
+@media (max-width:1024px) {
+
+    .Group290781 > .section1> .section2{
+        width: 28vw;
+    }
+    .Group290781 > .section1 > .section1img{
+        width: 29vw;
+    }
+
+    .home{
+        font-size: 13px;
+        margin-left: 25vw;
+    }
+    .Programs{
+
+        font-size: 13px;
+    }
+    .success{
+        font-size: 13px;
+        width: 12vw;
+     
+    }
+
+.about{
+    font-size: 13px;
+}
+   
+
+
+
+
+.book{
+    width: 10rem;
+    margin-right: 0.5rem;
+    font-size: 13px;
+}
+
+
+}
+@media (max-width:973px){
+
+.Group290781{
+    width: 100vw;
+}
+  
+}
+@media(max-width:311px){
+
+    .Group290781{
+
+
+        display: flex;
+        flex-direction: column;
+        
+        width: 257.79px;
+      
+        gap:1.4rem;
+        
+    }
+    .Group290781 > .section1{
+
+        width: 257.79px;
+height: 209px;
+
+
+    }
+    .Group290781 > .section1> .section2{
+    width: 199px;
+    height: 218px;
+    }
+    .Group290781 > .section1 > .section1img{
+        width: 257.79px;
+       height:  143.22px;
+       top:3.3rem;
+    }
+
+    .arrow{
+        transform:rotate(90deg);
+
+    }
+    .logo{
+        width: 118px;
+height: 39px;
+top: 12px;
+left: 18px;
+gap: 0px;
+opacity: 0px;
+
+    }
+    .home{
+        display: none;
+    }
+    .Programs{
+        display: none;
+    }
+    .access{
+        display: none;
+    }
+    .about{
+        display: none; 
+    }
+    .book{
+        width: 147px;
+        height: 40px;
+       ;
+        margin-left: 213px;
+        gap: 0px;
+        border-radius: 8px 0px 0px 0px;
+        
+        
+
+    }
+    .success{
+        display: none;
+    }
+    .blueback{
+        width: 311px;
+text-align: center;
+height: 185px;
+
+
+    }
+    .heading2{
+        font-size: 22px;
+    }
+
+}
