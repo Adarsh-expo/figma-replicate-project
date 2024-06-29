@@ -198,7 +198,128 @@ border-radius: 8px;
 /* Vector 12 */
 
 /* Group 290778 */
+.happysmart{
+
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.happy{
+    font-family: DM Sans;
+    font-family: DM Sans;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    
+
+}
+.audio{
+    display: flex;
+    align-items: center;
+}
+.audio2{
+
+
+    width: 20vw;
+    min-height: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+.audio2 > .audio2section{
+
+    width:20vw ;
+    background-image:url('https://s3-alpha-sig.figma.com/img/1a92/bf50/99c4e55e168daf91af9f5e30570fad3c?Expires=1720396800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=TDZd1JbUoCNX3IfWC3FGEStw4QyhxsXkKsRDttUqDcQibjCllJBc0P7Bw6WOL~IVtwOfMg6cbuLLqx0cE8lzvjYNKSNIQnbybUG3FnbmYEQ5E3GbuVM~ehvNtD07mNmAfUe0tKoMq7yVi1ZdcjOFf0yYtM-nNtg0qTDouD7Zh8VPqD2PQI2-RoUZgSp4esjmA4OfKlvhtxsXy2H5-hkPXOq0W4GikgFIeXk0TZ54CLD0MmneQecIWEVVW2N-QYntnSqHFw23t7zeG2o9q1z445udCCKiUKKC63FdUI13IYLzznj6jeIPmPsyMc5hDCcTtStyA~Dzz6z1Pd-CsxLunA__');
+    height: 11rem;
+    background-position:-23rem -100rem;
+}
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+.smart{
+    font-family: DM Sans;
+font-size: 24px;
+font-weight: 400;
+line-height: 34px;
+letter-spacing: -0.04em;
+text-align: center;
+
+}
+.rectangle5693{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.submain{
+
+display: flex;
+gap:1rem;
+
+
+}
+.image3{
+
+width: 20vw;
+
+object-fit: contain;
+
+}
+.rectangle5693box{
+    width:20vw ;
+    min-height: 4rem;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.UpTodd{
+    font-family: DM Sans;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    
+
+
+
+    
+
+}
+.celebrate{
+    font-family: DM Sans;
+font-size: 40px;
+font-weight: 400;
+line-height: 68px;
+letter-spacing: -0.04em;
+text-align: center;
+
+}
+span{
+    font-family: DM Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 68px;
+letter-spacing: -0.04em;
+text-align: center;
+
+}
 
