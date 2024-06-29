@@ -164,29 +164,50 @@ line-height: 50px;
 
 </div>
 <div class="form"  hidden=true style="width:100vw ; height: 100vh; background-color: blue; position:absolute; top: 0; opacity: 0.4; "  >
-<div class="oop" style="width: 40vw; background-color: white; margin-left:45vw;  position:relative;  margin-top:1rem; height:85vh;">
-    <div class="" style=""><span>Book Demo Session</span><span>Only 4Spot Left</span></div>
-<form>
-<input    placeholder="Name" type="text"/>
-<input   placeholder="Email" type="email"/>
-<input   placeholder="Phone No"   type="tel"/>
-<input  placeholder="Select Baby Stage"   type="text"/>
-<button>Apply Now</button>
+ 
+
+</div>
+<div class="form" hidden=true style="width: 40vw; background-color: white; margin-left:45vw; position: absolute;    top:1rem; height:85vh;">
+   
+   
+    <div class="" style="background-color: #5A40C4; display: flex; align-items: center;   gap: 29vw;  "><div style="display: flex; flex-direction: column;"><span style="font-family: DM Sans;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: -0.01em;
+        text-align: left;
+        ">Book Demo Session</span><span style="font-family: DM Sans;
+font-size: 14px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: -0.01em;
+text-align: left;
+">Only 4Spot Left</span></div><span style="width: 20px;
+font-size: 20px;
+">X</span></div>
+<form style="display: flex ; margin-top: 2.7rem; gap: 1rem; flex-direction: column; align-items: center;">
+<input style="width: 70%; height: 2rem;"   placeholder="Name" type="text"/>
+<input style="width: 70%; height: 2rem;"      placeholder="Email" type="email"/>
+<input style="width: 70%; height: 2rem;"  placeholder="Phone No"   type="tel"/>
+<input  style="width: 70%; height: 2rem;"  placeholder="Select Baby Stage"   type="text"/>
+<button style="width: 70%; height: 2.5rem;"    >Apply Now</button>
 
 </form>
 </div>
-    
-
-</div>
 <script>
 
-var element = document.getElementsByClassName('book');
-var element2 = document.getElementsByClassName('form');
+var element = document.getElementsByClassName('book')[0];
+console.log(element)
+var element2 = document.getElementsByClassName('form')[0];
+var element3 = document.getElementsByClassName('form')[1];
         
         // Add a click event listener
         element.addEventListener('click', function() {
             // Set the hidden attribute
-            element2.hidden = false;})
+            element2.hidden = !element2.hidden;
+            element3.hidden = !element3.hidden;
+        
+        })
 
 </script>
 </body>
